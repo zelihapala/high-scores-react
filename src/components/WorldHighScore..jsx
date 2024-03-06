@@ -14,10 +14,10 @@ function WorldHighScore({ allCountryScores, isAscending }) {
     <div className="worldScoreTable">
       <h1>World Wide High Scores</h1>
       <div className="images-container">
-        <img src="image/angrybirds.jpg" alt="Angry Birds" />
-        <img src="image/candy-crush.jpg" alt="Candy Crush" />
-        <img src="image/heman.jpg" alt="He-Man" />
-        <img src="image/mario.jpg" alt="Mario" />
+        <img src="../../image/angrybirds.jpg" alt="Angry Birds" />
+        <img src="../../image/candy-crush.jpg" alt="Candy Crush" />
+        <img src="../../image/heman.jpg" alt="He-Man" />
+        <img src="../../image/mario.jpg" alt="Mario" />
       </div>
       <table>
         <thead>
