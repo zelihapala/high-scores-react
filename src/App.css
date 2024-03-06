@@ -1,0 +1,109 @@
+/* App.css */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+ 
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #dfdada;
+  border-radius: 8px;
+ 
+}
+
+.App h1 {
+  text-align: center;
+  color: #fefeff;
+  background-color: #ca5d04;
+  padding: 18px;
+  border-radius: 8px;
+  border: 2px solid hsl(225, 35%, 35%);
+}
+
+
+.App h1 {
+  text-align: center;
+  color: #fefeff;
+  background-color: #ca5d04;
+  padding: 18px;
+  border-radius: 8px;
+  border: 2px solid hsl(225, 35%, 35%);
+}
+
+.HighScoreTable {
+  margin-top: 30px;
+}
+
+.HighScoreTable h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+  border-bottom: 4px solid #ca5d04;
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+  
+
+td {
+  border-bottom: 2px solid #ca5d04; /* Add a white line below each th and td element */
+ background-color: rgb(245, 248, 248);
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  
+
+}
+tr {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.CountryCard {
+  background-color: hsl(225, 35%, 35%); /* Mavi renk */
+  border: 3px  solid #ca5d04; 
+  color: hsl(225, 35%, 35%); /* Köşeleri yuvarlat */
+  font-size: 17px;
+  padding: 30px; /* İçerikten kenara boşluk */
+  margin: 40px; /* Alt karta boşluk bırak */
+  
+}
+
+
+.CountryCard h2 {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 40px;
+  background-color: #ca5d04; 
+  color: rgb(255, 255, 255); 
+  transition: background-color 0.3s, border-bottom-color 0.3s; /* Geçiş efektleri */
+}
+
+button:hover {
+  background-color: #2666bb; 
+  color: white; 
+}
+.images-container {
+  display: flex; /* Resimleri yatayda sırala */
+  justify-content: space-around; /* Aralarında boşluk bırakarak dengele */
+  align-items: center; /* Dikeyde ortala */
+}
+
+.images-container img {
+  width: 150px; /* Tüm resimlerin genişliği */
+  height: 100px; /* Tüm resimlerin yüksekliği */
+  margin: 25px 10px; /* Resimler arasında 10px boşluk bırak */
+}
