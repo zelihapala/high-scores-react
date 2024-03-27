@@ -22,7 +22,7 @@ function WorldHighScore({ allCountryScores, isAscending }) {
       <table>
         <thead>
           <tr>
-           <h3>Battle of the Titans: Nations Compete for Top Scores!</h3>
+            <h3>Battle of the Titans: Nations Compete for Top Scores!</h3>
           </tr>
         </thead>
         <tbody>
